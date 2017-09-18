@@ -1,0 +1,85 @@
+
+body{
+  margin-left: 30%;
+
+}
+
+/*form styling and content*/
+h1{
+  text-align: center;
+  color: darkgrey;
+  font-family: cursive;
+}
+.form{
+  width: 450px;
+  margin: 5px;
+  height: auto;
+  background: white;
+  border: 5px dotted lightblue;
+}
+p{
+  text-align: center;
+  font-family: arial;
+  font-size: 14pt;
+  color: blue;
+  padding: 10px;
+}
+img{
+  position: static;
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+.addToList{
+  padding: 10px;
+  margin-left: 22%;
+}
+#clearButtons{
+  padding: 10px;
+  margin-left: 25%;
+}
+/*ADD REMOVE BUTTONS*/
+#addRemove{
+  display: inline;
+  padding-right: 5px;
+}
+#addRemove button{
+display: none;
+font-size: 8pt;
+height: 20px;
+width: 50px;
+margin: 2px;
+float: right;
+text-align: center;
+}
+
+
+/*buttons style*/
+#clearList{
+  background: lightblue;
+  color: blue;
+  border-radius: 5px;
+}
+#clearCompleted{
+  background: lightblue;
+  color: blue;
+  border-radius: 5px;
+}
+#addButton{
+  background: lightblue;
+  color: blue;
+  border-radius: 5px;
+}
+
+/*list*/
+ul{
+  color: black;
+}
+li{
+  font-family: arial;
+  display: block;
+  color: blue;
+}
+.stroked{
+  text-decoration: line-through;
+}
